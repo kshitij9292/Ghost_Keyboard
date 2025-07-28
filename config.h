@@ -1,0 +1,13 @@
+#pragma once
+
+#define MATRIX_ROWS 8
+#define MATRIX_COLS 5
+
+#define MATRIX_ROW_PINS { GP0, GP1, GP2, GP3 }
+#define MATRIX_COL_PINS { GP4, GP5, GP6, GP7, GP8 }
+
+#define DIODE_DIRECTION COL2ROW
+
+#define SOFT_SERIAL_PIN GP16
+#define SPLIT_USB_DETECT
+#define SPLIT_TRANSPORT_MIRROR
